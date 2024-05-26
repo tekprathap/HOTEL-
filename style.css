@@ -1,0 +1,82 @@
+#navbar{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+}
+body{
+    background-color: white;
+}
+#navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: white !important;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    background-color: 2px transparent;
+    text-align: center;
+}
+#Location{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+#people{background-color: white; box-shadow: 4px 4px 4px 4px;}
+#Popular-Hotel .Popular-Hotel{
+    
+    padding: 10px;
+}
+#pricing{
+    margin: 10px;
+    padding: 10px;
+}
+#pricing .col{
+    
+    margin: 30px;
+}
+#Blog .Blog{
+   
+   padding: 10px;
+}
+#Popular-Hotel .col{
+    margin: 30px;
+    background-color: hotpink;
+}
+.nav-link{
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#Home{
+background-size: cover;
+/* background-position: center; */
+background-color: yellow;
+background-image: url('https://www.luxuryabode.com/mona/img/hotels.jpg');
+width: 100%;
+min-height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#Home h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+#Home p{
+    
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#Home a{
+    text-decoration: none;
+    font-weight: 800;
+}
